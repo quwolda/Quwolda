@@ -2,5 +2,60 @@ body {
     text-align: center;
     font-family: sans-serif;
     background-color: black; /* Делает фон черным */
-    color: white;            /* Делает текст белым, чтобы его было видно */
+    color: white;            /* Делает текст белым */
+}
+
+a {
+    color: #ffcc00; /* Цвет гиперссылки */
+    text-decoration: none; /* Убирает нижнее подчеркивание*/
+}
+
+.container {
+  display: flex;       /* Включаем гибкий контейнер */
+  height: 100vh;       /* Растягиваем на всю высоту экрана */
+}
+
+.side {
+  flex: 0 0 100px;     /* Боковые панели: не растут, не сужаются, ширина 100px */
+  background: rgb(66, 46, 10);
+}
+
+.center {
+  flex: 1;             /* Центр занимает всё оставшееся свободное место */
+  background: rgb(42, 29, 6);
+  color: white;
+}
+
+.title {
+    background: rgb(86, 81, 13);
+    position: relative; /* Создаем систему координат для квадратиков */
+    padding: 20px;
+    min-height: 150px;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background: rgb(55, 55, 55);
+    position: absolute; /* Позволяет двигать элемент по координатам */
+}
+
+#sq1 {
+    top: 10px;
+    left: 10px;
+}
+
+#sq2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+#sq3 {
+    top: 10px;
+    right: 10px;
+}
+
+#sq4 {
+    bottom: 10px;
+    left: 10px;
 }
