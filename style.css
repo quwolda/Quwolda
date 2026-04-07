@@ -1,91 +1,135 @@
+/* =========================================
+   ПЕРЕМЕННЫЕ (Цвета и общие настройки)
+   Здесь хранятся все цвета. Меняется тут -> меняется везде.
+   ========================================= */
+:root {
+  /* Основные цвета фона */
+  --bg-black: black;
+  --bg-side: rgb(66, 46, 10);
+  --bg-center: rgb(42, 29, 6);
+  
+  /* Цвета карточек и блоков */
+  --bg-title: rgb(86, 81, 13);
+  --bg-bubble: rgb(62, 44, 14);
+  --bg-square: rgb(55, 55, 55);
+  
+  /* Текст и акценты */
+  --text-main: white;
+  --link-accent: #ffcc00;
+  
+  /* Цвета статусов Discord */
+  --status-online: #23a55a;
+  --status-idle: #f0b232;
+  --status-dnd: #f23f43;
+  --status-offline: #80848e;
+}
+
+/* =========================================
+   1. БАЗОВЫЕ СТИЛИ (Глобальные настройки)
+   Влияют на весь документ в целом.
+   ========================================= */
 body {
   text-align: center;
   font-family: sans-serif;
-  background-color: black; /* Делает фон черным */
-  color: white;            /* Делает текст белым */
+  background-color: var(--bg-black); /* */
+  color: var(--text-main);           /* */
 }
 
 a {
-  color: #ffcc00; /* Цвет гиперссылки */
-  text-decoration: none; /* Убирает нижнее подчеркивание*/
+  color: var(--link-accent); /* */
+  text-decoration: none;     /* Убирает дефолтное нижнее подчеркивание у ссылок */
 }
 
+/* =========================================
+   2. СЕТКА И ЛЕЙАУТ (Каркас страницы)
+   Отвечают за расположение больших блоков.
+   ========================================= */
 .box {
-  display: flex;       /* Включаем гибкий контейнер */
-  height: 100vh;       /* Растягиваем на всю высоту экрана */
+  display: flex;       /* Включает гибкую верстку для блоков внутри */
+  height: 100vh;       /* Растягивает контейнер на 100% высоты экрана (Viewport Height) */
 }
 
 .side {
-  flex: 0 0 100px;     /* Боковые панели: не растут, не сужаются, ширина 100px */
-  background: rgb(66, 46, 10);
+  flex: 0 0 100px;     /* Запрещает блоку расти или сжиматься, жестко фиксируя ширину в 100px */
+  background: var(--bg-side); /* */
 }
 
 .center {
-  flex: 1;             /* Центр занимает всё оставшееся свободное место */
-  background: rgb(42, 29, 6);
-  color: white;
-  padding: 5px;
+  flex: 1;             /* Заставляет центральный блок занять всё свободное место между боковыми */
+  background: var(--bg-center); /* */
+  color: var(--text-main); /* */
+  padding: 5px; /* */
 }
 
+/* =========================================
+   3. ГЛАВНЫЙ БЛОК (Внутренняя карточка)
+   ========================================= */
 .title {
-  background: rgb(86, 81, 13);
-  position: relative; /* Создаем систему координат для квадратиков */
-  padding: 20px;
-  min-height: 150px;
-  border-radius: 5px
-
+  position: relative; /* Создает локальную систему координат. Теперь элементы с position: absolute внутри этого блока будут отсчитываться от его краев */
+  background: var(--bg-title); /* */
+  padding: 20px; /* */
+  min-height: 150px; /* */
+  border-radius: 5px; /* */
 }
 
+/* Декоративные точки по углам (бывшие квадратики) */
+.square {
+  position: absolute; /* Вырывает элемент из обычного потока документа для свободного перемещения */
+  width: 10px; /* */
+  height: 10px; /* */
+  background: var(--bg-square); /* */
+  border-radius: 50%; /* Скругляет углы до состояния круга */
+}
+
+/* Индивидуальные координаты для каждой точки */
+#sq1 { top: 10px; left: 10px; } 
+#sq2 { bottom: 10px; right: 10px; }
+#sq3 { top: 10px; right: 10px; } 
+#sq4 { bottom: 10px; left: 10px; }
+
+/* =========================================
+   4. КОМПОНЕНТ DISCORD (Виджет профиля)
+   ========================================= */
 .speech-bubble-discord {
   position: relative;
-  text-align: center; /* Центрирует всё внутри */
-  min-height: 100px;
-  background: rgb(62, 44, 14);
-  border-radius: 20px;
-  padding: 5px;
-  padding-left: 100px;
+  text-align: center; /* Центрирует текстовое содержимое */
+  min-height: 100px; /* */
+  background: var(--bg-bubble); /* */
+  border-radius: 20px; /* */
+  padding: 5px; /* */
+  padding-left: 100px; /* Искусственный отступ слева, чтобы текст не наезжал на абсолютно позиционированную аватарку */
 }
 
+/* Аватарка профиля */
 #discord-avatar {
-  position: absolute; /* Вынимаем из общего потока */
-  left: 15px;         /* Прижимаем к левому краю */
+  position: absolute; /* Вынимает картинку из общего потока, чтобы она не толкала текст */
+  left: 15px;         /* Прижимает к левому краю облачка */
   top: 50%;
-  transform: translateY(-50%); /* Центрируем вертикально */
-  width: 80px;
-  border-radius: 50%;
+  transform: translateY(-50%); /* Сдвигает картинку вверх на половину её собственной высоты для идеального центра по вертикали */
+  width: 80px; /* */
+  border-radius: 50%; /* */
 }
 
-.status-dot {
-    position: absolute;
-    top: 60%;
-    left: 70px;
-    right: 2px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 3px solid rgb(42, 29, 6); /* Вырез */
-    background-color: #80848e; /* Цвет по умолчанию (offline) */
-}
-
-/* Цвета статусов */
-.status-online { background-color: #23a55a; }
-.status-idle { background-color: #f0b232; }
-.status-dnd { background-color: #f23f43; }
-.status-offline { background-color: #80848e; }
-
+/* Никнейм */
 #discord-name {
-  display: inline-block;
-  margin: 0; 
+  display: inline-block; /* Позволяет задавать отступы (margin), сохраняя поведение строчного элемента */
+  margin: 0;  /* */
 }
 
-.square {
-  width: 10px;
-  height: 10px;
-  background: rgb(55, 55, 55);
-  position: absolute; /* Позволяет двигать элемент по координатам */
+/* Статус */
+.status-dot {
+  position: absolute; 
+  top: 60%; /* */
+  left: 70px; /* */
+  width: 20px; /* */
+  height: 20px; /* */
+  border-radius: 50%; /* */
+  border: 3px solid rgb(42, 29, 6); /* Обводка цвета заднего фона, создающая визуальный эффект "выреза" в аватарке */
+  background-color: var(--status-offline); /* Цвет по умолчанию, если JS не сработал */
 }
 
-#sq1 {top: 10px; left: 10px; border-radius: 50%;}
-#sq2 {bottom: 10px; right: 10px; border-radius: 50%;}
-#sq3 {top: 10px; right: 10px; border-radius: 50%;}
-#sq4 {bottom: 10px; left: 10px; border-radius: 50%;}
+/* Модификаторы цвета статуса (переключаются через JavaScript) */
+.status-online { background-color: var(--status-online); } 
+.status-idle { background-color: var(--status-idle); }
+.status-dnd { background-color: var(--status-dnd); }
+.status-offline { background-color: var(--status-offline); }
