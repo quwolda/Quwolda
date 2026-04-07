@@ -64,6 +64,26 @@ a {
   background: var(--bg-center); /* */
   color: var(--text-main); /* */
   padding: 5px; /* */
+
+
+  /*ДЫРКА В ЭЛЕМЕНТЕ*/
+    /* === ДЛЯ CHROME, SAFARI И EDGE (-webkit-) === */
+    -webkit-mask-image: 
+        linear-gradient(white, white), 
+        linear-gradient(white, white); 
+    -webkit-mask-size: 100% 100%, 90% 60%;
+    -webkit-mask-position: 0 0, 35% 90%; 
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-composite: destination-out;
+    
+    /* === ДЛЯ FIREFOX И СОВРЕМЕННЫХ СТАНДАРТОВ === */
+    mask-image: 
+        linear-gradient(white, white), 
+        linear-gradient(white, white); 
+    mask-size: 100% 100%, 90% 60%;
+    mask-position: 0 0, 35% 90%; 
+    mask-repeat: no-repeat;
+    mask-composite: exclude; /* Стандартное значение для вырезания */
 }
 
 /* Scrollbar */
