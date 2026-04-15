@@ -4,18 +4,18 @@
    ========================================= */
 :root {
   /* Основные цвета фона */
-  --bg-black: black;
-  --bg-side: rgb(66, 46, 10);
-  --bg-center: rgb(42, 29, 6);
+  --bg-black: rgb(0, 0, 0);
+  --bg-side: rgb(15, 66, 10);
+  --bg-center: rgb(6, 42, 14);
   
   /* Цвета карточек и блоков */
-  --bg-title: rgb(86, 81, 13);
-  --bg-bubble: rgb(62, 44, 14);
+  --bg-title: rgb(13, 86, 30);
+  --bg-bubble: rgb(14, 62, 15);
   --bg-square: rgb(55, 55, 55);
   
   /* Текст и акценты */
   --text-main: white;
-  --link-accent: #ffcc00;
+  --link-accent: #51ff00;
 
   /* ... твои старые переменные ... */
   --scrollbar-width: 4px;        /* Делаем его очень узким */
@@ -64,26 +64,6 @@ a {
   background: var(--bg-center); /* */
   color: var(--text-main); /* */
   padding: 5px; /* */
-
-
-  /*ДЫРКА В ЭЛЕМЕНТЕ*/
-    /* === ДЛЯ CHROME, SAFARI И EDGE (-webkit-) === */
-    -webkit-mask-image: 
-        linear-gradient(white, white), 
-        linear-gradient(white, white); 
-    -webkit-mask-size: 100% 100%, 90% 60%;
-    -webkit-mask-position: 0 0, 35% 90%; 
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-composite: destination-out;
-    
-    /* === ДЛЯ FIREFOX И СОВРЕМЕННЫХ СТАНДАРТОВ === */
-    mask-image: 
-        linear-gradient(white, white), 
-        linear-gradient(white, white); 
-    mask-size: 100% 100%, 90% 60%;
-    mask-position: 0 0, 35% 90%; 
-    mask-repeat: no-repeat;
-    mask-composite: exclude; /* Стандартное значение для вырезания */
 }
 
 /* Scrollbar */
@@ -120,32 +100,17 @@ a {
   border-radius: 5px; /* */
 }
 
-/* Декоративные точки по углам (бывшие квадратики) */
-.square {
-  position: absolute; /* Вырывает элемент из обычного потока документа для свободного перемещения */
-  width: 10px; /* */
-  height: 10px; /* */
-  background: var(--bg-square); /* */
-  border-radius: 50%; /* Скругляет углы до состояния круга */
-}
-
-/* Индивидуальные координаты для каждой точки */
-#sq1 { top: 10px; left: 10px; } 
-#sq2 { bottom: 10px; right: 10px; }
-#sq3 { top: 10px; right: 10px; } 
-#sq4 { bottom: 10px; left: 10px; }
-
 /* =========================================
    4. КОМПОНЕНТ DISCORD (Виджет профиля)
    ========================================= */
 .speech-bubble-discord {
   position: relative;
-  text-align: center; /* Центрирует текстовое содержимое */
+  text-align: start; /* Центрирует текстовое содержимое */
   min-height: 100px; /* */
   background: var(--bg-bubble); /* */
   border-radius: 20px; /* */
   padding: 5px; /* */
-  padding-left: 100px; /* Искусственный отступ слева, чтобы текст не наезжал на абсолютно позиционированную аватарку */
+  padding-left: 120px; /* Искусственный отступ слева, чтобы текст не наезжал на абсолютно позиционированную аватарку */
 }
 
 /* Аватарка профиля */
