@@ -21,6 +21,14 @@
 
 ###
 
+<h3 align="center">My skills</h3>
+
+###
+
+<p align="center">I have sufficient skills to use this without AI or documentation.</p>
+
+###
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp logo"  />
   <img width="12" />
@@ -47,6 +55,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
+###
+
+<h3 align="left">Social media</h3>
 
 ###
 
@@ -61,14 +72,17 @@
 
 ###
 
-<div align="center">
-  <img src="https://count.getloli.com/@:quwolda?theme=rule34&padding=5&scale=2&align=top&pixelated=1&darkmode=0"  />
+
+
+<div align="right">
+  <h3  padding-right="5">Views</h3>
+  <img src="https://count.getloli.com/@:quwolda?theme=rule34&padding=5&offset=6&scale=1.5&align=center&pixelated=1&darkmode=0"  />
 </div>
 
 ###
 
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=true&fontSize=70&fontColor=#0d4216&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=#0d4216"  />
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=#0d4216&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=#0d4216"  />
 </div>
 
 ###
