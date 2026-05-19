@@ -1,3 +1,3 @@
 ### Quwolda / student
 
-![](https://moe-counter.glitch.me/get/@quwolda?theme=rule34)
+![](https://count.getloli.com/get/@quwolda?theme=rule34&render=true)
