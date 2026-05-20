@@ -18,10 +18,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo"  />
 </div>
 
-###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=quwolda.quwolda&left_color=rebeccapurple&right_color=purple&left_text=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2"  />
+<div align="right">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=quwolda.quwolda&left_color=rebeccapurple&right_color=purple&left_text=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2" hspace="30" />
 </div>
 
 ###
