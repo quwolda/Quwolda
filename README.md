@@ -2,7 +2,7 @@
 
 ###
 
-<p hspace="10" align="left">Я студент колледжа, программист-самоучка. Каюсь, использую ИИ, но лишь из-за того что не могу себе позволить расточительное количество времени и денег провести за изучением языков программирования. Но это не значит что я не знаю никакой.</p>
+<p hspace="40" align="left">Я студент колледжа, программист-самоучка. Каюсь, использую ИИ, но лишь из-за того что не могу себе позволить расточительное количество времени и денег провести за изучением языков программирования. Но это не значит что я не знаю никакой.</p>
 
 ###
 
@@ -20,7 +20,7 @@
 
 
 <div align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=quwolda.quwolda&left_color=rebeccapurple&right_color=purple&left_text=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2" hspace="10" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=quwolda.quwolda&left_color=rebeccapurple&right_color=purple&left_text=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2" hspace="20" />
 </div>
 
 ###
