@@ -1,7 +1,7 @@
-<img align="right" height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExenQwdTZrcXFqYXI3aHNlaWszdGQ4NndhZjhsenowdnZrOWoydW9nOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TvoHGPMZcMDDXiAK9C/giphy.gif"  />
+<img align="right" height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExenQwdTZrcXFqYXI3aHNlaWszdGQ4NndhZjhsenowdnZrOWoydW9nOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TvoHGPMZcMDDXiAK9C/giphy.gif" style="margin-left: 20px; margin-bottom: 20px;" />
 
 ###
-<p> Я студент колледжа, программист-самоучка. Каюсь, использую ИИ, но лишь из-за того что не могу себе позволить расточительное количество времени и денег провести за изучением языков программирования. Но это не значит что я не знаю никакой.&emsp;&emsp; </p>
+<p align="left"> Я студент колледжа, программист-самоучка. Каюсь, использую ИИ, но лишь из-за того что не могу себе позволить расточительное количество времени и денег провести за изучением языков программирования. Но это не значит что я не знаю никакой.&emsp;&emsp; </p>
 
 ###
 
