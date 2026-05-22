@@ -4,7 +4,6 @@
       <p align="left">
         Я студент колледжа, программист-самоучка, в некотором роде энтузиаст, считаю что программирование у меня в крови, ибо я довольно быстро учусь и плюсом также быстро запоминаю, точно также быстро забываю если долго не пользуюсь своими знаниями. Каюсь, использую ИИ для кода, но лишь из-за того, что не могу себе позволить расточительное количество времени и денег на изучение языков программирования. С ИИ это все же и быстрее и дешевле, да и плюсом я обучаюсь наблюдая, так-что после длительного использования ИИ для какого-то языка 100% выучу его таким образом.
       </p>
-      <br />
       <div align="left">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
         <img width="12" />
@@ -22,7 +21,7 @@
     </td>
   </tr>
 </table>
-
 <div align="right" style="margin-top: 15px;">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=quwolda.quwolda&left_color=rebeccapurple&right_color=purple&left_text=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2" />
 </div>
+
