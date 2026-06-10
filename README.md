@@ -2,7 +2,7 @@
   <tr>
     <td valign="top" style="padding-right: 20px;">
       <p align="left">
-        Я студент колледжа, программист-самоучка, в некотором роде энтузиаст, считаю что программирование у меня в крови, ибо я довольно быстро учусь и плюсом также быстро запоминаю, точно также быстро забываю если долго не пользуюсь своими знаниями. Каюсь, использую ИИ для кода, но лишь из-за того, что не могу себе позволить расточительное количество времени и денег на изучение языков программирования. С ИИ это все же и быстрее и дешевле, да и плюсом я обучаюсь наблюдая, так-что после длительного использования ИИ для какого-то языка 100% выучу его таким образом.
+        Приветствую каждого и всяк сюда зашедшего, имя мне Куа. Я студент, программист-самоучка. Считаю что программирование у меня в крови, ибо я очень быстро запоминаю, правда также быстро забываю, но только если не пользуюсь своими знаниями. Честно, вообще не понимаю чем я должен заниматься.
       </p>
       <div align="left">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
@@ -17,7 +17,7 @@
       </div>
     </td>
     <td valign="top" align="right" width="220">
-      <img height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExenQwdTZrcXFqYXI3aHNlaWszdGQ4NndhZjhsenowdnZrOWoydW9nOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TvoHGPMZcMDDXiAK9C/giphy.gif" />
+      <img height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnMzZ2R3M213cDBhODczc2VtdjJrOWFrbWVhc3Q0N21nM2V1M3hvMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btWWS0sdXQ74Gu4/giphy.gif" />
     </td>
   </tr>
 </table>
