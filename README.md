@@ -2,7 +2,7 @@
   <tr>
     <td valign="top" style="padding-right: 20px;">
       <p align="left">
-        Приветствую каждого и всяк сюда зашедшего, имя мне Куа. Я студент, программист-самоучка. Считаю что программирование у меня в крови, ибо я очень быстро запоминаю, правда также быстро забываю, но только если не пользуюсь своими знаниями. Честно, вообще не понимаю чем я должен заниматься.
+        Приветствую каждого и всяк сюда зашедшего, имя мне Куа. Я студент, программист-самоучка. Считаю что программирование у меня в крови, ибо я очень быстро запоминаю, правда также быстро забываю, но только если не пользуюсь своими знаниями. Звездю некоторые прикольные проекты что нахожу и сортирую их по тому где они могут пригодится, посмотрите, может быть вас заинтересуют проекты что я нашёл. 
       </p>
       <div align="left">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
@@ -16,8 +16,8 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo" />
       </div>
     </td>
-    <td valign="top" align="right" width="220">
-      <img height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnMzZ2R3M213cDBhODczc2VtdjJrOWFrbWVhc3Q0N21nM2V1M3hvMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btWWS0sdXQ74Gu4/giphy.gif" />
+    <td valign="top" align="right" width="250">
+      <img height="250" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnMzZ2R3M213cDBhODczc2VtdjJrOWFrbWVhc3Q0N21nM2V1M3hvMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btWWS0sdXQ74Gu4/giphy.gif" />
     </td>
   </tr>
 </table>
